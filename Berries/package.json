@@ -1,5 +1,5 @@
 {
-  "name": "Berries",
+  "name": "week-18",
   "private": true,
   "scripts": {
     "build": "turbo build",
@@ -16,15 +16,9 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "npm@10.5.0",
+  "packageManager": "npm@10.2.4",
   "workspaces": [
     "apps/*",
     "packages/*"
-  ],
-  "dependencies": {
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38",
-    "recoil": "^0.7.7",
-    "tailwindcss": "^3.4.3"
-  }
+  ]
 }
